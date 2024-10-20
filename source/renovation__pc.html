@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Честный сервис</title>
+    <link rel="stylesheet" href="sass/style.scss">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+
+</head>
+
+<body class="page">
+    <section class="hero" data-slide="1">
+        <div class="container">
+            <header class="page__header  header">
+                <a href="./index.html" class="header__logo  logo logo__tablet">
+                    <img src="/img/logo.webp" width="52" height="52" alt="Логотип сайта" class="logo__image">
+                </a>
+                <a href="./index.html" class="header__logo  logo logo__mobile">
+                    <img src="./img/logo2.webp" width="152" height="52" alt="Логотип сайта" class="logo__image">
+                </a>
+
+                <nav class="header__menu  menu">
+                    <button class="menu__toggle" type="button">
+                        <svg class="menu__icon  menu__icon--menu">
+                            <use href="/__spritemap#sprite-menu"></use>
+                        </svg>
+                        <svg class="menu__icon  menu__icon--cross">
+                            <use href="/__spritemap#sprite-cross"></use>
+                        </svg>
+                    </button>
+                    <div class="menu__content">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="./about.html" class="menu__link">
+                                    О нас
+                                </a>
+                            </li>
+                            <li class="menu__item  menu__active">
+                                <a href="index.html#services" class="menu__link">
+                                    Услуги
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#map-section" class="menu__link">
+                                    Как поехать
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link contact__link">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <h1 class="visually-hidden">Честный сервис</h1>
+
+        </div>
+    </section>
+
+    <section class="work">
+        <div class="container">
+
+            <h2>Мы работаем для Вас без&nbsp;обедов и выходных</h2>
+            <div>
+                <a class="work__link" href="tel:+79514138242">8-951-413-82-42</a>
+                <span class="work__timetable">Пн - Пт: c 9.00 - 18.00</span>
+                <span class="work__timetable">Сб - Вс: c 9.00 - 15.00</span>
+                <span class="work__address">г.Калачинск ул.П-Ильичева 11Б</span>
+            </div>
+        </div>
+
+    </section>
+    <!-- <section class="slider swiper-container">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide">Ремонт телевизоров</li>
+            <li class="swiper-slide">Ремонт ноутбуков и ПК</li>
+            <li class="swiper-slide">Ремонт сотовых телефонов</li>
+            <li class="swiper-slide">Ремонт ноутбуков и ПК</li>
+            <li class="swiper-slide">Ремонт лазерных и струйных принтеров</li>
+            <li class="swiper-slide">Ремонт цифровых приставок</li>
+            <li class="swiper-slide">Установка защитной пленки</li>
+            <li class="swiper-slide">Заправка картриджей</li>
+        </ul>
+        <div class="swiper-pagination"></div>
+    </section> -->
+    <!-- <section class="services">
+        <div class="container">
+            <ul class="services__list">
+                <li class="services__item services__tv">
+                    <a class="services__link" href="#">Ремонт телевизоров</a>
+                </li>
+                <li class="services__item services__pc">
+                    <a class="services__link" href="#">Ремонт ноутбуков и ПК</a>
+                </li>
+                <li class="services__item services__printer">
+                    <a class="services__link" href="#">Ремонт оргтехники</a>
+                </li>
+                <li class="services__item services__telephone">
+                    <a class="services__link" href="#">Ремонт телефонов и планшетов</a>
+                </li>
+                <li class="services__item services__appliance">
+                    <a class="services__link" href="#">Ремонт бытовой техники</a>
+                </li>
+                <li class="services__item services__refill">
+                    <a class="services__link" href="#">Заправка картриджей</a>
+                </li>
+
+            </ul>
+        </div>
+    </section> -->
+    <section class="renovation__pc">
+        <div class="container">
+            <h2>Ремонт компьютеров и сервисное обслуживание</h2>
+            <p>
+                Наш Сервисный центр выполняет диагностику, обслуживание, качественный ремонт компьютеров. Мы работаем с
+                частными клиентами и организациями. Все услуги выполняются с гарантией.
+            </p>
+            <table class="renovation__price">
+                <tbody>
+                    <tr class="table__title">
+                        <td class="first__column">Наименование услуг</td>
+                        <td class="lasrt__column">Цена</td>
+                    </tr>
+                    <tr>
+                        <td class="first__column">ТО системного блока</td>
+                        <td class="lasrt__column">500 руб</td>
+                    </tr>
+                    <tr>
+                        <td class="first__column">ТО ноутбука</td>
+                        <td class="lasrt__column">1000 руб</td>
+                    </tr>
+                    <tr>
+                        <td class="first__column">Замена элементов печатной платы</td>
+                        <td class="lasrt__column">от 300 руб</td>
+                    </tr>
+                    <tr>
+                        <td class="first__column">Ремонт блока питания АТХ</td>
+                        <td class="lasrt__column">500 руб</td>
+                    </tr>
+                    <tr>
+                        <td class="first__column">Ремонт HDD</td>
+                        <td class="lasrt__column">от 500 руб</td>
+                    </tr>
+                    <tr>
+                        <td class="first__column">Диагностика системного блока</td>
+                        <td class="lasrt__column">100 руб</td>
+                    </tr>
+                    <tr>
+                        <td class="first__column">Ремонт материнской платы</td>
+                        <td class="lasrt__column">от 500 руб</td>
+                    </tr>
+                    <tr>
+                        <td class="first__column">Сборка системного блока</td>
+                        <td class="lasrt__column">от 500 руб</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul class="renovation__footnote">
+                <li class="renovation__item">
+                    В таблице приведен не полный список услуг.
+                </li>
+
+                <li class="renovation__item">
+                    Стоимость работ указана в рублях без стоимости комплектующих.
+                </li>
+                <li class="renovation__item">
+                    Срок гарантии на платные работы по ремонту оборудования составляет 1 месяца.
+                </li>
+                <li class="renovation__item">
+                    Гарантия на программное обеспечение и техническое обслуживание не распространяется.
+                </li>
+            </ul>
+            <!-- <div class="renovation__diagnostic">
+                <h3>Диагностика компьютера</h3>
+                <span>
+                    <p>Диагностика компьютера - распространенная услуга. Нередко клиенты обращаются к специалистам со
+                        своими жалобами, но не могут чётко рассказать, почему возникла неисправность и как проявляются
+                        нарушения работы устройства. Правильно проведенная диагностика компьютера позволяет выявить
+                        причины малейших нарушений в его работе, устранить их, чтобы неисправности больше никогда не
+                        беспокоили владельца устройства. Диагностические мероприятия всегда проводятся перед ремонтом
+                        современных компьютеров.
+
+                    </p>
+                </span>
+                <h3>Ремонт компьютеров</h3>
+                <span>
+                    <p>Ремонт компьютеров - обширная сфера деятельности. Иногда специалист работает лишь с программным
+                        обеспечением. Переустановка операционной системы - самая популярная услуга. Самостоятельно
+                        решить эту непростую проблему получается не у всех. Вы можете всегда рассчитывать на помощь
+                        экспертов. Механическое повреждение системного блока или ноутбука - повод обратиться к
+                        специалисту, который выполнит ремонт компьютера. Иногда нарушения работы устройства связаны с
+                        его нутренними загрязнениями. Из-за пыли кулер не может нормально функционировать, компьютер
+                        перегревается и выходит из строя. Чтобы не доводить устройство до такого состояния, нужно
+                        периодически обращаться к специалистам, которые осуществляют обслуживание компьютеров.</p>
+                </span>
+
+            </div> -->
+        </div>
+    </section>
+    <section class="map" id="map-section">
+        <div class="container">
+            <div class="map__unit" id="map"></div>
+            <div class="map__card">
+                <p class="map__address">ул.П-Ильичева 11Б</p>
+                <img class="map__image" src="./img/map-image.webp" width="200" height="100"
+                    alt="Фото сервисного центра">
+                <a class="map__link" href="tel:+79514138242">8-951-413-82-42</a>
+                <p class="map__timetable">Пн - Пт: c 9.00 - 18.00</p>
+                <p class="map__timetable">Сб - Вс: c 9.00 - 15.00</p>
+            </div>
+        </div>
+    </section>
+    <section class="modal">
+        <div class="modal__wrapper">
+            <div class="modal__logo">
+                <img src="./img/logo2.webp" width="152" height="52" alt="Логотип сайта" class="modal__logo--image">
+                <button class="modal__button ">
+                    <svg class="modal__icon">
+                        <use href="/__spritemap#sprite-cross"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal__card card">
+                <p class="card__address">г. Калачинск ул.П-Ильичева 11Б</p>
+                <img class="card__image" src="./img/map-image.webp" width="200" height="150"
+                    alt="Фото сервисного центра">
+                <a class="card__link" href="tel:+79514138242">8-951-413-82-42</a>
+                <p class="card__timetable">Пн - Пт: c 9.00 - 18.00</p>
+                <p class="card__timetable">Сб - Вс: c 9.00 - 15.00</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <a href="./index.html" class="footer__logo  logo logo__tablet">
+                <img src="/img/logo.webp" width="52" height="52" alt="Логотип сайта" class="logo__image">
+            </a>
+            <a href="./index.html" class="footer__logo  logo logo__mobile">
+                <img src="./img/logo2.webp" width="152" height="52" alt="Логотип сайта" class="logo__image">
+            </a>
+            <div class="footer__content">
+                <a class="footer__link" href="tel:+79514138242">8-951-413-82-42</a>
+                <span class="footer__address">г.Калачинск <br> ул.П-Ильичева 11Б</span>
+                <div>
+                    <span class="footer__timetable">Пн - Пт: c 9.00 - 18.00</span>
+                    <span class="footer__timetable">Сб - Вс: c 9.00 - 15.00</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        ymaps.ready(init);
+        function init() {
+            // Создание карты
+            var myMap = new ymaps.Map("map", {
+                center: [55.055444, 74.585348], // Координаты центра карты (например, Москва)
+                zoom: 18 // Масштаб карты
+            });
+
+            // Добавление метки на карту
+            var myPlacemark = new ymaps.Placemark([55.055444, 74.585348], {
+                balloonContent: 'Здесь находимся МЫ!'
+            });
+
+            myMap.geoObjects.add(myPlacemark);
+        }
+    </script>
+    <script src="/js/main.js"></script>
+    <script src="/js/swiper.js"></script>
+    <script src="/js/modal.js"></script>
+
+</body>
+
+</html>

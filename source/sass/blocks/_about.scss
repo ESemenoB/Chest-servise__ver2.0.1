@@ -1,0 +1,50 @@
+.about {
+  &__image {
+    object-fit: cover;
+    max-width: max-content;
+  }
+  &__description {
+    font-size: 1em;
+    hyphens: auto;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .about {
+    // .container {
+    //   // display: flex;
+    //   align-items: center;
+    //   gap: 10px;
+    // }
+
+    &__image {
+      object-fit: cover;
+      max-width: max-content;
+    }
+    &__description {
+      font-size: 1.5em;
+      // hyphens: auto;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .about {
+    &__advantages {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: space-between;
+    }
+
+    &__image {
+      object-fit: cover;
+      max-width: 300px;
+    }
+    &__description {
+      font-size: 1.5em;
+      // hyphens: auto;
+    }
+  }
+}

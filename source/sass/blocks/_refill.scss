@@ -1,0 +1,72 @@
+.refill {
+  h2 {
+    margin-bottom: 20px;
+  }
+  p {
+    hyphens: auto;
+  }
+  &__price {
+    margin: 0 auto;
+    // width: 90%;
+    border-collapse: collapse; /* Границы ячеек не будут дублироваться */
+    td {
+      border: 2px solid var(--colortext); /* Граница ячеек */
+      padding: 10px; /* Внутренний отступ */
+      color: var(--colortext);
+      background-color: var(--primary);
+    }
+    // .first__column {
+    //   width: 60%;
+    // }
+    .last__column {
+      width: 6em;
+    }
+  }
+
+  &__description {
+    hyphens: auto;
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+    li {
+      margin: 5px 0;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .refill {
+    h2 {
+      margin-bottom: 20px;
+    }
+    p {
+      hyphens: auto;
+    }
+    &__price {
+      margin: 0 auto;
+      width: 70%;
+      border-collapse: collapse; /* Границы ячеек не будут дублироваться */
+      td {
+        border: 2px solid var(--colortext); /* Граница ячеек */
+        padding: 10px; /* Внутренний отступ */
+        color: var(--colortext);
+        background-color: var(--primary);
+      }
+      // .first__column {
+      //   width: 60%;
+      // }
+      //   .last__column {
+      //     width: 5em;
+      //   }
+    }
+
+    &__description {
+      hyphens: auto;
+      text-align: justify;
+      width: 70%;
+      margin: 0 auto;
+      li {
+        margin: 5px 0;
+      }
+    }
+  }
+}

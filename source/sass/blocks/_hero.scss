@@ -1,0 +1,94 @@
+.hero {
+  padding: 20px 0;
+  // background: url("../../img/slide-background-1-mobile@2x.webp") no-repeat
+  //   center center;
+  // background-size: cover;
+
+  // &[data-slide="1"] {
+  //   background-image: url('../../img/slide-background-1-mobile.webp');
+  // }
+
+  // &[data-slide="2"] {
+  //   background-image: url('../../img/slide-background-2-mobile.webp');
+  // }
+
+  // &[data-slide="3"] {
+  //   background-image: url('../../img/slide-background-3-mobile.webp');
+  // }
+
+  // @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  //   &[data-slide="1"] {
+  //     background-image: url('../../img/slide-background-1-mobile@2x.webp');
+  //   }
+
+  //   &[data-slide="2"] {
+  //     background-image: url('../../img/slide-background-2-mobile@2x.webp');
+  //   }
+
+  //   &[data-slide="3"] {
+  //     background-image: url('../../img/slide-background-3-mobile@2x.webp');
+  //   }
+  // }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 30px 0 30px 0;
+
+    // &[data-slide="1"] {
+    //   background-image: url('../../img/slide-background-1-tablet.webp');
+    // }
+
+    // &[data-slide="2"] {
+    //   background-image: url('../../img/slide-background-2-tablet.webp');
+    // }
+
+    // &[data-slide="3"] {
+    //   background-image: url('../../img/slide-background-3-tablet.webp');
+    // }
+
+    // @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    //   &[data-slide="1"] {
+    //     background-image: url('../../img/slide-background-1-tablet@2x.webp');
+    //   }
+
+    //   &[data-slide="2"] {
+    //     background-image: url('../../img/slide-background-2-tablet@2x.webp');
+    //   }
+
+    //   &[data-slide="3"] {
+    //     background-image: url('../../img/slide-background-3-tablet@2x.webp');
+    //   }
+    // }
+  }
+}
+
+// @media (min-width: 1440px) {
+//   .hero {
+//     // &[data-slide="1"] {
+//     //   background-image: url('../../img/slide-background-1-desktop.webp');
+//     // }
+
+//     // &[data-slide="2"] {
+//     //   background-image: url('../../img/slide-background-2-desktop.webp');
+//     // }
+
+//     // &[data-slide="3"] {
+//     //   background-image: url('../../img/slide-background-3-desktop.webp');
+//     // }
+
+//     // @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+//     //   &[data-slide="1"] {
+//     //     background-image: url('../../img/slide-background-1-desktop@2x.webp');
+//     //   }
+
+//     //   &[data-slide="2"] {
+//     //     background-image: url('../../img/slide-background-2-desktop@2x.webp');
+//     //   }
+
+//     //   &[data-slide="3"] {
+//     //     background-image: url('../../img/slide-background-3-desktop@2x.webp');
+//     //   }
+//     // }
+//   }
+// }

@@ -1,0 +1,75 @@
+@import "variables";
+@import "vendor/normalize";
+@import "blocks/font";
+
+body {
+  font-family: "Racama", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #484848;
+}
+
+button {
+  cursor: pointer;
+}
+
+@import "blocks/container";
+@import "blocks/hero";
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/menu";
+@import "blocks/icon";
+@import "blocks/submenu";
+@import "blocks/slider";
+@import "blocks/button";
+@import "blocks/work";
+@import "blocks/services";
+@import "blocks/map.scss";
+@import "blocks/footer.scss";
+@import "blocks/about";
+@import "blocks/pc";
+@import "blocks/tel";
+@import "blocks/office";
+@import "blocks/refill";
+@import "blocks/tv";
+@import "blocks/household";
+@import "blocks/modal";
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: currentColor;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+body.modal__open {
+  overflow: hidden;
+}
