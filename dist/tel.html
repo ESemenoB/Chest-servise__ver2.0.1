@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Честный сервис</title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+
+  <link rel="stylesheet" crossorigin href="./assets/style-BctURdjT.css">
+</head>
+
+<body class="page">
+    <section class="hero" data-slide="1">
+        <div class="container">
+            <header class="page__header  header">
+                <a href="./index.html" class="header__logo  logo logo__tablet">
+                    <img src="./assets/logo-DSYkv3vj.webp" width="52" height="52" alt="Логотип сайта" class="logo__image">
+                </a>
+                <a href="./index.html" class="header__logo  logo logo__mobile">
+                    <img src="./assets/logo2-Cyc2F0vd.webp" width="152" height="52" alt="Логотип сайта" class="logo__image">
+                </a>
+
+                <nav class="header__menu  menu">
+                    <button class="menu__toggle" type="button">
+                        <svg class="menu__icon  menu__icon--menu">
+                            <use href="/assets/spritemap.239ca743.svg#sprite-menu"></use>
+                        </svg>
+                        <svg class="menu__icon  menu__icon--cross">
+                            <use href="/assets/spritemap.239ca743.svg#sprite-cross"></use>
+                        </svg>
+                    </button>
+                    <div class="menu__content">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="./about.html" class="menu__link">
+                                    О нас
+                                </a>
+                            </li>
+                            <li class="menu__item  menu__active">
+                                <a href="index.html#services" class="menu__link">
+                                    Услуги
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#map-section" class="menu__link">
+                                    Как поехать
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link contact__link">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <h1 class="visually-hidden">Честный сервис</h1>
+
+        </div>
+    </section>
+
+    <section class="work">
+        <div class="container">
+
+            <h2>Мы работаем для Вас без&nbsp;обедов и выходных</h2>
+            <div>
+                <a class="work__link" href="tel:+79514138242">8-951-413-82-42</a>
+                <span class="work__timetable">Пн - Пт: c 9.00 - 18.00</span>
+                <span class="work__timetable">Сб - Вс: c 9.00 - 15.00</span>
+                <span class="work__address">г.Калачинск ул.П-Ильичева 11Б</span>
+            </div>
+        </div>
+
+    </section>
+    <section class="renovation__tel tel">
+        <div class="container">
+            <h2>Ремонт смартфонов</h2>
+            <p>
+                Восстановленный смартфон работает 2-3 и более лет. Обычно выходит из строя 1 слабая деталь. Поэтому
+                менять устройство является ненужным делом. Наш сервисный центр починит ваш аппарат с применением
+                оригинальных запчастей.
+            </p>
+            <h3>Основные поломки планшетов и смартфонов</h3>
+            <div class="tel__breakage">
+                <ul>
+                    <li>Повреждения на экране — механические повреждения приводят к необходимости замены тачскринов или
+                        дисплейного модуля в сборе.</li>
+                    <li>Корпус поврежден — мы легко заменим заднюю крышку или корпус полностью. Этот тип ремонта
+                        смартфонов позволит восстановить внешний вид аппарата до заводского;</li>
+                    <li>Не заряжается — обычная ситуация, происходящая по нескольким причинам. Это износ или брак
+                        аккумулятора, поломка контроллера питания или неисправности разъема для зарядки</li>
+                    <li>Не включается — эта проблема требует диагностики. Причин бывает много — вышла из строя батарея,
+                        материнская плата или шлейф. Сюда добавляется поломка любого мелкого элемента.</li>
+                </ul>
+                <div class="tel__picture picture">
+                    <img class="picture__item" src="./assets/remont-smartfonov-B0oUOpYb.webp" width="200" height="100"
+                        alt="Фото сервисного центра">
+                    <img class="picture__item" src="./assets/remont-smartfonov1-Cvw4cSR0.webp" width="200" height="100"
+                        alt="Фото сервисного центра">
+                    <img class="picture__item" src="./assets/remont-smartfonov2-CYu2c_ah.webp" width="200" height="100"
+                        alt="Фото сервисного центра">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="map" id="map-section">
+        <div class="container">
+            <div class="map__unit" id="map"></div>
+            <div class="map__card">
+                <p class="map__address">ул.П-Ильичева 11Б</p>
+                <img class="map__image" src="./assets/map-image-u7HyGiRU.webp" width="200" height="100"
+                    alt="Фото сервисного центра">
+                <a class="map__link" href="tel:+79514138242">8-951-413-82-42</a>
+                <p class="map__timetable">Пн - Пт: c 9.00 - 18.00</p>
+                <p class="map__timetable">Сб - Вс: c 9.00 - 15.00</p>
+            </div>
+        </div>
+    </section>
+    <section class="modal">
+        <div class="modal__wrapper">
+            <div class="modal__logo">
+                <img src="./assets/logo2-Cyc2F0vd.webp" width="152" height="52" alt="Логотип сайта" class="modal__logo--image">
+                <button class="modal__button ">
+                    <svg class="modal__icon">
+                        <use href="/assets/spritemap.239ca743.svg#sprite-cross"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal__card card">
+                <p class="card__address">г. Калачинск ул.П-Ильичева 11Б</p>
+                <img class="card__image" src="./assets/map-image-u7HyGiRU.webp" width="200" height="150"
+                    alt="Фото сервисного центра">
+                <a class="card__link" href="tel:+79514138242">8-951-413-82-42</a>
+                <p class="card__timetable">Пн - Пт: c 9.00 - 18.00</p>
+                <p class="card__timetable">Сб - Вс: c 9.00 - 15.00</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <a href="./index.html" class="footer__logo  logo logo__tablet">
+                <img src="./assets/logo-DSYkv3vj.webp" width="52" height="52" alt="Логотип сайта" class="logo__image">
+            </a>
+            <a href="./index.html" class="footer__logo  logo logo__mobile">
+                <img src="./assets/logo2-Cyc2F0vd.webp" width="152" height="52" alt="Логотип сайта" class="logo__image">
+            </a>
+            <div class="footer__content">
+                <a class="footer__link" href="tel:+79514138242">8-951-413-82-42</a>
+                <span class="footer__address">г.Калачинск <br> ул.П-Ильичева 11Б</span>
+                <div>
+                    <span class="footer__timetable">Пн - Пт: c 9.00 - 18.00</span>
+                    <span class="footer__timetable">Сб - Вс: c 9.00 - 15.00</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        ymaps.ready(init);
+        function init() {
+            // Создание карты
+            var myMap = new ymaps.Map("map", {
+                center: [55.055444, 74.585348], // Координаты центра карты (например, Москва)
+                zoom: 18 // Масштаб карты
+            });
+
+            // Добавление метки на карту
+            var myPlacemark = new ymaps.Placemark([55.055444, 74.585348], {
+                balloonContent: 'Здесь находимся МЫ!'
+            });
+
+            myMap.geoObjects.add(myPlacemark);
+        }
+    </script>
+    <script src="/js/main.js"></script>
+    <script src="/js/swiper.js"></script>
+    <script src="/js/modal.js"></script>
+
+
+</body>
+
+</html>
