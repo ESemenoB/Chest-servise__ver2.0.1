@@ -67,6 +67,10 @@ export default {
           dest: "img",
         },
         {
+          src: "./img/sprite/*.svg", // копируем спрайты SVG
+          dest: "img/sprite", // в ту же структуру
+        },
+        {
           src: "./js/*.js", // копирование JavaScript файлов
           dest: "js", // папка назначения
         },
