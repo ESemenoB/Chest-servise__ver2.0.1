@@ -70,6 +70,10 @@ export default {
           src: "./js/*.js", // копирование JavaScript файлов
           dest: "js", // папка назначения
         },
+        {
+          src: "./fonts/*.{woff,woff2,ttf,eot}", // включение поддерживаемых форматов
+          dest: "fonts",
+        },
       ],
     }),
   ],
