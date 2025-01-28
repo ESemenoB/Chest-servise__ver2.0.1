@@ -49,6 +49,7 @@
     "w3c-html-validator": "1.7.0"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "swiper": "^11.1.14"
   },
   "engines": {
