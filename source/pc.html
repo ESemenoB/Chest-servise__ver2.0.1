@@ -8,7 +8,7 @@
     <title>Честный сервис</title>
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="sass/style.scss">
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script> -->
 </head>
 
 <body class="page">
@@ -185,23 +185,6 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript">
-        ymaps.ready(init);
-        function init() {
-            // Создание карты
-            var myMap = new ymaps.Map("map", {
-                center: [55.055444, 74.585348], // Координаты центра карты (например, Москва)
-                zoom: 18 // Масштаб карты
-            });
-
-            // Добавление метки на карту
-            var myPlacemark = new ymaps.Placemark([55.055444, 74.585348], {
-                balloonContent: 'Здесь находимся МЫ!'
-            });
-
-            myMap.geoObjects.add(myPlacemark);
-        }
-    </script>
     <script src="./js/main.js"></script>
     <script src="./js/modal.js"></script>
 </body>
