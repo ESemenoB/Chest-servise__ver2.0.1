@@ -6,24 +6,17 @@
     hyphens: auto;
   }
   .renovation__price {
-    border-collapse: collapse; /* Границы ячеек не будут дублироваться */
+    border-collapse: collapse; 
     td {
-      border: 2px solid var(--colortext); /* Граница ячеек */
-      padding: 10px; /* Внутренний отступ */
+      border: 2px solid var(--colortext); 
+      padding: 10px;
       color: var(--colortext);
       background-color: var(--primary);
     }
   }
   .renovation__footnote {
     hyphens: auto;
-    // li {
-    //   margin-bottom: 10px;
-    // }
   }
-
-  // .renovation__diagnostic{
-
-  // }
 }
 
 @media (min-width: 768px) {
@@ -40,14 +33,13 @@
     .renovation__price {
       margin: 0 auto;
       padding-bottom: 25px;
-      border-collapse: collapse; /* Границы ячеек не будут дублироваться */
+      border-collapse: collapse; 
       .table__title {
-        // background-color: aqua;
         font-size: 1.5em;
       }
       td {
-        border: 2px solid var(--colortext); /* Граница ячеек */
-        padding: 10px; /* Внутренний отступ */
+        border: 2px solid var(--colortext); 
+        padding: 10px;
         color: var(--colortext);
         background-color: var(--primary);
       }
@@ -63,10 +55,6 @@
       margin: 0 auto;
       hyphens: auto;
       width: 48em;
-      // margin-bottom: 25px;
-      // li {
-      //   padding-bottom: 10px;
-      // }
     }
   }
 }
@@ -74,7 +62,6 @@
 @media (min-width: 1440px) {
   .renovation__pc {
     h2 {
-      // margin-top: ;
       margin: 20px 0;
       font-size: 1.8em;
       text-align: center;
@@ -90,14 +77,13 @@
     .renovation__price {
       margin: 0 auto;
       padding-bottom: 25px;
-      border-collapse: collapse; /* Границы ячеек не будут дублироваться */
+      border-collapse: collapse; 
       .table__title {
-        // background-color: aqua;
         font-size: 1.5em;
       }
       td {
-        border: 2px solid var(--colortext); /* Граница ячеек */
-        padding: 10px; /* Внутренний отступ */
+        border: 2px solid var(--colortext); 
+        padding: 10px;
         color: var(--colortext);
         background-color: var(--primary);
       }
@@ -113,10 +99,6 @@
       margin: 0 auto;
       hyphens: auto;
       width: 63em;
-      // margin-bottom: 25px;
-      // li {
-      //   padding-bottom: 10px;
-      // }
     }
   }
 }

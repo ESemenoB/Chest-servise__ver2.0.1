@@ -7,17 +7,13 @@
   }
   &__price {
     margin: 0 auto;
-    // width: 90%;
-    border-collapse: collapse; /* Границы ячеек не будут дублироваться */
+    border-collapse: collapse;
     td {
-      border: 2px solid var(--colortext); /* Граница ячеек */
-      padding: 10px; /* Внутренний отступ */
+      border: 2px solid var(--colortext);
+      padding: 10px;
       color: var(--colortext);
       background-color: var(--primary);
     }
-    // .first__column {
-    //   width: 60%;
-    // }
     .last__column {
       width: 6em;
     }
@@ -44,19 +40,13 @@
     &__price {
       margin: 0 auto;
       width: 70%;
-      border-collapse: collapse; /* Границы ячеек не будут дублироваться */
+      border-collapse: collapse;
       td {
-        border: 2px solid var(--colortext); /* Граница ячеек */
-        padding: 10px; /* Внутренний отступ */
+        border: 2px solid var(--colortext);
+        padding: 10px;
         color: var(--colortext);
         background-color: var(--primary);
       }
-      // .first__column {
-      //   width: 60%;
-      // }
-      //   .last__column {
-      //     width: 5em;
-      //   }
     }
 
     &__description {

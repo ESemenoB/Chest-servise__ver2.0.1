@@ -14,7 +14,6 @@
 
   &__address {
     font-size: 1.4em;
-    /* font-weight: 700; */
     display: block;
     padding-bottom: 10px;
   }
@@ -34,7 +33,6 @@
 
 @media (min-width: 768px) {
   .footer {
-    // margin-bottom: 20px;
     .container {
       align-items: flex-start;
       justify-content: space-between;
@@ -53,7 +51,6 @@
       gap: 20px;
     }
     &__timetable {
-      //   display: block;
       font-size: 1em;
       padding-bottom: 0px;
     }
@@ -70,7 +67,6 @@
 
 @media (min-width: 1440px) {
   .footer {
-    // margin-bottom: 20px;
     .container {
       align-items: flex-start;
     }
@@ -88,7 +84,6 @@
       gap: 35px;
     }
     &__timetable {
-      //   display: block;
       font-size: 1.5em;
       line-height: 1;
       padding-bottom: 0px;

@@ -2,26 +2,24 @@
   margin: 0px 0px 20px 0;
   &__unit {
     width: 100%;
-    height: 400px;
-  }
+    height: 340px;
+    background-image: url(/img/map-mobile.webp);
+    background-size: 100%;
+    }
   .container {
     position: relative;
   }
 
   &__card {
     position: absolute;
-    top: 49px;
+    top: 25px;
     right: 65px;
     width: 160px;
-    // height: 200px;
     padding: 10px;
     border-radius: 15px;
     background-color: var(--active);
     color: var(--colortext);
     img {
-      // object-fit: contain;
-      // width: 120px;
-      // height: auto;
       display: none;
     }
     p {
@@ -32,74 +30,97 @@
       text-align: center;
     }
   }
+
+  &__card::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 40px;
+    height: 40px;
+    bottom: -50px;
+    right: 100px;
+    background-image: url(/img/sprite/pin_stroke.svg);
+    background-size: 100%;
+  }
 }
 
 @media (min-width: 768px) {
   .map {
+    &__unit {
+      height: 470px;
+      background-image: url(/img/map-tablet.webp);
+      background-size: 100%;
+      }
+
     &__card {
       position: absolute;
-      top: 49px;
-      left: 100px;
+      top: 25px;
+      left: 80px;
       width: 180px;
-      // height: 200px;
       padding: 10px;
       border-radius: 15px;
       background-color: var(--active);
       color: var(--colortext);
       font-size: 1.1em;
       img {
-        // object-fit: contain;
         width: 180px;
         height: auto;
         display: block;
         border-radius: 10px;
         margin: 6px 0;
       }
-      // p {
-      //   margin: 0;
-      // }
       a {
         text-align: center;
       }
     }
-    // &__address {
-    //   margin-bottom: 3px;
-    // }
+
+    &__card::before {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      bottom: 40px;
+      right: -75px;      
+    }
+  
   }
 }
 
 @media (min-width: 1440px) {
   .map {
     margin: 0px 0px 45px 0;
+    &__unit {
+      height: 640px;
+      background-image: url(/img/map-descktop.webp);
+      background-size: 100%;
+      }
+
 
     &__card {
       position: absolute;
       top: 49px;
       left: 200px;
       width: 240px;
-      // height: 200px;
       padding: 10px;
       border-radius: 15px;
       background-color: var(--active);
       color: var(--colortext);
       font-size: 1.3em;
       img {
-        // object-fit: contain;
         width: 240px;
-        // height: auto;
-        // display: block;
-        // border-radius: 10px;
-        // margin: 6px 0;
       }
-      // p {
-      //   margin: 0;
-      // }
       a {
         text-align: center;
       }
     }
-    // &__address {
-    //   margin-bottom: 3px;
-    // }
+
+    &__card::before {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      bottom: 40px;
+      bottom: 10px;
+      right: -310px;
+    }
+
   }
 }

@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://cs-55.ru/">
   <meta property="og:image" content="https://cs-55.ru/logo.jpg">
   <meta property="og:site_name" content="Первый Честный Сервис">
-  <script>(function (m, e, t, r, i, k, a) {
+  <!-- <script>(function (m, e, t, r, i, k, a) {
       m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
       m[i].l = 1 * new Date();
       for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
@@ -30,17 +30,16 @@
       trackLinks: true,
       accurateTrackBounce: true,
       webvisor: true
-    });</script>
-  <noscript>
-    <!-- <div><img src="https://mc.yandex.ru/watch/96245938" style="position:absolute; left:-9999px;" alt="" /></div> -->
-  </noscript>
+    });</script> -->
+  <!-- <noscript>
+    <div><img src="https://mc.yandex.ru/watch/96245938" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript> -->
 
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="sass/style.scss">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-
+  <!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script> -->
 
 </head>
 
@@ -48,14 +47,14 @@
   <section class="hero" data-slide="1">
     <div class="container">
       <header class="page__header  header">
-        <a href="./index.html" class="header__logo  logo logo__tablet">
+        <!-- <a href="./index.html" class="header__logo  logo logo__tablet">
           <img src="/img/logo.webp" width="52" height="52" alt="Логотип сайта" class="logo__image">
-        </a>
+        </a> -->
         <a href="./index.html" class="header__logo  logo logo__mobile">
           <img src="./img/logo2.webp" width="152" height="52" alt="Логотип сайта" class="logo__image">
         </a>
         <nav class="header__menu  menu">
-          <button class="menu__toggle" type="button">
+          <button class="menu__toggle" type="button" aria-label="открыть меню">
             <svg class="menu__icon  menu__icon--menu">
               <use href="./__spritemap#sprite-menu"></use>
             </svg>
@@ -106,16 +105,16 @@
 
   </section>
   <section class="slider swiper-container">
-    <ul class="swiper-wrapper">
-      <li class="swiper-slide">Ремонт телевизоров</li>
-      <li class="swiper-slide">Ремонт ноутбуков и ПК</li>
-      <li class="swiper-slide">Ремонт сотовых телефонов</li>
-      <li class="swiper-slide">Ремонт ноутбуков и ПК</li>
-      <li class="swiper-slide">Ремонт лазерных и струйных принтеров</li>
-      <li class="swiper-slide">Ремонт цифровых приставок</li>
-      <li class="swiper-slide">Установка защитной пленки</li>
-      <li class="swiper-slide">Заправка картриджей</li>
-    </ul>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Ремонт телевизоров</div>
+      <div class="swiper-slide">Ремонт ноутбуков и ПК</div>
+      <div class="swiper-slide">Ремонт сотовых телефонов</div>
+      <div class="swiper-slide">Ремонт ноутбуков и ПК</div>
+      <div class="swiper-slide">Ремонт лазерных и струйных принтеров</div>
+      <div class="swiper-slide">Ремонт цифровых приставок</div>
+      <div class="swiper-slide">Установка защитной пленки</div>
+      <div class="swiper-slide">Заправка картриджей</div>
+    </div>
     <div class="swiper-pagination"></div>
   </section>
   <section class="services" id="services">
@@ -142,12 +141,12 @@
       </ul>
     </div>
   </section>
-  <section class="weather">
+  <!-- <section class="weather">
     <div class="container">
       <div id="weather"></div>
 
     </div>
-  </section>
+  </section> -->
 
   <section class="map" id="map-section">
     <div class="container">
@@ -165,7 +164,7 @@
     <div class="modal__wrapper">
       <div class="modal__logo">
         <img src="./img/logo2.webp" width="152" height="52" alt="Логотип сайта" class="modal__logo--image">
-        <button class="modal__button ">
+        <button class="modal__button" aria-label="Закрыть окно">
           <svg class="modal__icon">
             <use href="./__spritemap#sprite-cross"></use>
           </svg>
@@ -198,23 +197,7 @@
       </div>
     </div>
   </footer>
-  <script type="text/javascript">
-    ymaps.ready(init);
-    function init() {
-      // Создание карты
-      var myMap = new ymaps.Map("map", {
-        center: [55.055444, 74.585348], // Координаты центра карты (например, Москва)
-        zoom: 18 // Масштаб карты
-      });
-
-      // Добавление метки на карту
-      var myPlacemark = new ymaps.Placemark([55.055444, 74.585348], {
-        balloonContent: 'Здесь находимся МЫ!'
-      });
-
-      myMap.geoObjects.add(myPlacemark);
-    }
-  </script>
+  
   <script src="./js/main.js"></script>
   <script src="./js/swiper.js"></script>
   <script src="./js/modal.js"></script>

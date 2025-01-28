@@ -7,7 +7,7 @@
   text-align: center;
   background-color: var(--primary);
   border-radius: 16px;
-  min-height: 100px; // }
+  min-height: 100px;
   color: var(--colortext);
 
   & .swiper-wrapper {
@@ -22,15 +22,12 @@
     gap: 5px;
   }
 
-  /* Цвет стандартных буллетов */
   & .swiper-pagination-bullet {
     background-color: var(--colortext);
-    // opacity: 0.7;
   }
 
-  /* Цвет активного буллета (текущий слайд) */
   & .swiper-pagination-bullet-active {
-    background-color: var(--colortext); /* цвет активного буллета */
+    background-color: var(--colortext); 
   }
 }
 

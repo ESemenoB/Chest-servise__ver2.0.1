@@ -3,10 +3,6 @@
   align-items: center;
   position: relative;
   min-height: 54px;
-  // }
-  // &__link {
-  //   display: none;
-  // }
   &__menu {
     margin-left: auto;
   }
@@ -14,13 +10,6 @@
 @media (min-width: 768px) {
   .header {
     min-height: 56px;
-    // display: flex;
-
-    // &__link {
-    //   display: block;
-    //   margin-left: auto;
-    // }
-
     &__menu {
       margin-left: 0;
     }
